@@ -33,5 +33,5 @@
         "sector_size": [512, 4096],
         "supported_suite": ["bullseye"],
         "supported_edition": ["kde"]
-    },
+    }
 ]
