@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 1
       matrix:
         products: ${{ fromJSON(needs.query.outputs.products) }}
     steps:
